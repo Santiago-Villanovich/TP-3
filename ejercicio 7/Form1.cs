@@ -20,20 +20,18 @@ namespace ejercicio_7
         }
 
         private void ingresar_Click(object sender, EventArgs e)
-        {
+        {   
             int n = grid.Rows.Add();
-            int m = int.Parse(monto.Text);
-            int t = int.Parse(tasa.Text);
-            int d = int.Parse(dias.Text);
 
-
-            int resultado = (m * t * d / 36500);
+            float m = float.Parse(monto.Text);
+            float t = float.Parse(tasa.Text);
+            float d = float.Parse(dias.Text);
 
             grid.Rows[n].Cells[0].Value = usuario.Text;
             grid.Rows[n].Cells[1].Value = monto.Text;
             grid.Rows[n].Cells[2].Value = tasa.Text;
             grid.Rows[n].Cells[3].Value = dias.Text;
-            grid.Rows[n].Cells[4].Value = resultado;
+            grid.Rows[n].Cells[4].Value = Math.Round(m * t * d / 36500,2);
 
             usuario.Text = "";
             monto.Text = "";

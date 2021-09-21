@@ -50,6 +50,10 @@ namespace ejercicio_7
             // 
             // grid
             // 
+            this.grid.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.grid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.grid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
+            this.grid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nusuario,
@@ -57,29 +61,30 @@ namespace ejercicio_7
             this.tasaColumna,
             this.diasColumna,
             this.interesesColumna});
-            this.grid.Location = new System.Drawing.Point(44, 195);
+            this.grid.Location = new System.Drawing.Point(63, 246);
             this.grid.Name = "grid";
-            this.grid.Size = new System.Drawing.Size(543, 145);
+            this.grid.RowHeadersVisible = false;
+            this.grid.Size = new System.Drawing.Size(502, 145);
             this.grid.TabIndex = 0;
             this.grid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_CellContentClick);
             // 
             // monto
             // 
-            this.monto.Location = new System.Drawing.Point(159, 83);
+            this.monto.Location = new System.Drawing.Point(159, 147);
             this.monto.Name = "monto";
             this.monto.Size = new System.Drawing.Size(146, 20);
             this.monto.TabIndex = 1;
             // 
             // tasa
             // 
-            this.tasa.Location = new System.Drawing.Point(159, 109);
+            this.tasa.Location = new System.Drawing.Point(159, 173);
             this.tasa.Name = "tasa";
             this.tasa.Size = new System.Drawing.Size(146, 20);
             this.tasa.TabIndex = 2;
             // 
             // dias
             // 
-            this.dias.Location = new System.Drawing.Point(159, 135);
+            this.dias.Location = new System.Drawing.Point(159, 199);
             this.dias.Name = "dias";
             this.dias.Size = new System.Drawing.Size(146, 20);
             this.dias.TabIndex = 3;
@@ -87,7 +92,7 @@ namespace ejercicio_7
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(110, 86);
+            this.label1.Location = new System.Drawing.Point(110, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 4;
@@ -96,7 +101,7 @@ namespace ejercicio_7
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 112);
+            this.label2.Location = new System.Drawing.Point(45, 176);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 13);
             this.label2.TabIndex = 5;
@@ -105,7 +110,7 @@ namespace ejercicio_7
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(121, 138);
+            this.label3.Location = new System.Drawing.Point(121, 202);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 6;
@@ -113,27 +118,33 @@ namespace ejercicio_7
             // 
             // ingresar
             // 
-            this.ingresar.Location = new System.Drawing.Point(386, 65);
+            this.ingresar.BackColor = System.Drawing.SystemColors.GrayText;
+            this.ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ingresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ingresar.Location = new System.Drawing.Point(396, 137);
             this.ingresar.Name = "ingresar";
             this.ingresar.Size = new System.Drawing.Size(132, 26);
             this.ingresar.TabIndex = 7;
             this.ingresar.Text = "Ingresar datos";
-            this.ingresar.UseVisualStyleBackColor = true;
+            this.ingresar.UseVisualStyleBackColor = false;
             this.ingresar.Click += new System.EventHandler(this.ingresar_Click);
             // 
             // limpiar
             // 
-            this.limpiar.Location = new System.Drawing.Point(386, 97);
+            this.limpiar.BackColor = System.Drawing.SystemColors.GrayText;
+            this.limpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.limpiar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.limpiar.Location = new System.Drawing.Point(396, 169);
             this.limpiar.Name = "limpiar";
             this.limpiar.Size = new System.Drawing.Size(132, 26);
             this.limpiar.TabIndex = 8;
             this.limpiar.Text = "Limpiar";
-            this.limpiar.UseVisualStyleBackColor = true;
+            this.limpiar.UseVisualStyleBackColor = false;
             this.limpiar.Click += new System.EventHandler(this.limpiar_Click);
             // 
             // usuario
             // 
-            this.usuario.Location = new System.Drawing.Point(159, 29);
+            this.usuario.Location = new System.Drawing.Point(159, 93);
             this.usuario.Name = "usuario";
             this.usuario.Size = new System.Drawing.Size(146, 20);
             this.usuario.TabIndex = 9;
@@ -171,7 +182,7 @@ namespace ejercicio_7
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(104, 32);
+            this.label4.Location = new System.Drawing.Point(104, 96);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 10;
