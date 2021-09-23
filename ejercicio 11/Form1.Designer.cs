@@ -55,7 +55,7 @@ namespace ejercicio_11
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(296, 65);
+            this.label1.Location = new System.Drawing.Point(245, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 0;
@@ -64,7 +64,7 @@ namespace ejercicio_11
             // picture7
             // 
             this.picture7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture7.Location = new System.Drawing.Point(180, 94);
+            this.picture7.Location = new System.Drawing.Point(129, 56);
             this.picture7.Name = "picture7";
             this.picture7.Size = new System.Drawing.Size(90, 83);
             this.picture7.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace ejercicio_11
             // picture8
             // 
             this.picture8.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture8.Location = new System.Drawing.Point(276, 94);
+            this.picture8.Location = new System.Drawing.Point(225, 56);
             this.picture8.Name = "picture8";
             this.picture8.Size = new System.Drawing.Size(90, 83);
             this.picture8.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace ejercicio_11
             // picture4
             // 
             this.picture4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture4.Location = new System.Drawing.Point(180, 183);
+            this.picture4.Location = new System.Drawing.Point(129, 145);
             this.picture4.Name = "picture4";
             this.picture4.Size = new System.Drawing.Size(90, 83);
             this.picture4.TabIndex = 3;
@@ -94,7 +94,7 @@ namespace ejercicio_11
             // picture6
             // 
             this.picture6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture6.Location = new System.Drawing.Point(372, 183);
+            this.picture6.Location = new System.Drawing.Point(321, 145);
             this.picture6.Name = "picture6";
             this.picture6.Size = new System.Drawing.Size(90, 83);
             this.picture6.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace ejercicio_11
             // picture3
             // 
             this.picture3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture3.Location = new System.Drawing.Point(372, 272);
+            this.picture3.Location = new System.Drawing.Point(321, 234);
             this.picture3.Name = "picture3";
             this.picture3.Size = new System.Drawing.Size(90, 83);
             this.picture3.TabIndex = 5;
@@ -114,7 +114,7 @@ namespace ejercicio_11
             // picture2
             // 
             this.picture2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture2.Location = new System.Drawing.Point(276, 272);
+            this.picture2.Location = new System.Drawing.Point(225, 234);
             this.picture2.Name = "picture2";
             this.picture2.Size = new System.Drawing.Size(90, 83);
             this.picture2.TabIndex = 6;
@@ -124,7 +124,7 @@ namespace ejercicio_11
             // picture1
             // 
             this.picture1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture1.Location = new System.Drawing.Point(180, 272);
+            this.picture1.Location = new System.Drawing.Point(129, 234);
             this.picture1.Name = "picture1";
             this.picture1.Size = new System.Drawing.Size(90, 83);
             this.picture1.TabIndex = 7;
@@ -134,7 +134,7 @@ namespace ejercicio_11
             // picture5
             // 
             this.picture5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture5.Location = new System.Drawing.Point(276, 183);
+            this.picture5.Location = new System.Drawing.Point(225, 145);
             this.picture5.Name = "picture5";
             this.picture5.Size = new System.Drawing.Size(90, 83);
             this.picture5.TabIndex = 8;
@@ -144,7 +144,7 @@ namespace ejercicio_11
             // picture9
             // 
             this.picture9.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.picture9.Location = new System.Drawing.Point(372, 94);
+            this.picture9.Location = new System.Drawing.Point(321, 56);
             this.picture9.Name = "picture9";
             this.picture9.Size = new System.Drawing.Size(90, 83);
             this.picture9.TabIndex = 9;
@@ -154,7 +154,7 @@ namespace ejercicio_11
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(533, 151);
+            this.label2.Location = new System.Drawing.Point(222, 356);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 10;
@@ -164,7 +164,7 @@ namespace ejercicio_11
             // 
             this.indicador.AutoSize = true;
             this.indicador.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.indicador.Location = new System.Drawing.Point(591, 147);
+            this.indicador.Location = new System.Drawing.Point(280, 352);
             this.indicador.Name = "indicador";
             this.indicador.Size = new System.Drawing.Size(0, 18);
             this.indicador.TabIndex = 11;
@@ -173,7 +173,7 @@ namespace ejercicio_11
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 405);
+            this.ClientSize = new System.Drawing.Size(534, 405);
             this.Controls.Add(this.indicador);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.picture9);
